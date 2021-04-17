@@ -5,7 +5,6 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: rgb(44, 139, 44);
 }
 
 canvas {
@@ -17,8 +16,25 @@ h1 {
     font-family: 'Play', sans-serif;
     letter-spacing: 10px;
     margin-bottom: 1px;
+    color: rgb(44, 139, 44);
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
 }
 
-span {
-    color: rgb(12, 194, 12);
-}
+@keyframes example {
+    0%   {color:red;}
+    25%  {color:yellow;}
+    50%  {color:blue;}
+    75%  {color:green;}
+    100% {color:red;}
+  }
+
+@keyframes corzinha {
+    from {
+        color: rgb(44, 139, 44) !important;
+    }
+    to {
+        color: rgb(12, 194, 12) !important;
+    }
+  }
