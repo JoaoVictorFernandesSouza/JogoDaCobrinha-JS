@@ -17,18 +17,7 @@ h1 {
     letter-spacing: 10px;
     margin-bottom: 1px;
     color: rgb(44, 139, 44);
-    animation-name: example;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
 }
-
-@keyframes example {
-    0%   {color:red;}
-    25%  {color:yellow;}
-    50%  {color:blue;}
-    75%  {color:green;}
-    100% {color:red;}
-  }
 
 @keyframes corzinha {
     from {
